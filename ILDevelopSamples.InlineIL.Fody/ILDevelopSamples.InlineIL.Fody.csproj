@@ -4,10 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Fody" Version="6.5.2">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>compile; runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
+    <PackageReference Include="Fody" Version="6.5.2" PrivateAssets="All" />
     <PackageReference Include="InlineIL.Fody" Version="1.7.1" PrivateAssets="All" />
   </ItemGroup>
 </Project>

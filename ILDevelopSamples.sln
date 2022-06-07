@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31515.178
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ILDevelopSamples.ConsoleApp", "ILDevelopSamples.ConsoleApp\ILDevelopSamples.ConsoleApp.csproj", "{489248EC-7CE4-4D60-B0A2-1924A076BFBE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ILDevelopSamples.ILProject", "ILDevelopSamples.ILProject\ILDevelopSamples.ILProject.ilproj", "{FAC46402-FA50-43D7-8EDD-B049AB1E479D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ILDevelopSamples.ILMixed", "ILDevelopSamples.ILMixed\ILDevelopSamples.ILMixed.csproj", "{EB20B0E5-36EB-4DA8-BED6-8EDB5DFAACB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ILDevelopSamples.ILMixed", "ILDevelopSamples.ILMixed\ILDevelopSamples.ILMixed.csproj", "{EB20B0E5-36EB-4DA8-BED6-8EDB5DFAACB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ILDevelopSamples.Fody", "ILDevelopSamples.Fody\ILDevelopSamples.Fody.csproj", "{141B8D58-7179-4C28-81D1-3C4FE3B4B3C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ILDevelopSamples.InlineIL.Fody", "ILDevelopSamples.InlineIL.Fody\ILDevelopSamples.InlineIL.Fody.csproj", "{141B8D58-7179-4C28-81D1-3C4FE3B4B3C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

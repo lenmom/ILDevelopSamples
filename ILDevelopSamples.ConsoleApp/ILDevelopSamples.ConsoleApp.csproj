@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ILDevelopSamples.Fody\ILDevelopSamples.Fody.csproj" />
+    <ProjectReference Include="..\ILDevelopSamples.InlineIL.Fody\ILDevelopSamples.InlineIL.Fody.csproj" />
     <ProjectReference Include="..\ILDevelopSamples.ILMixed\ILDevelopSamples.ILMixed.csproj" />
     <ProjectReference Include="..\ILDevelopSamples.ILProject\ILDevelopSamples.ILProject.ilproj" />
   </ItemGroup>
