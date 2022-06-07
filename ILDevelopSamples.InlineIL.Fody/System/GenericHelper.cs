@@ -1,16 +1,14 @@
 ﻿using InlineIL;
-using static InlineIL.IL.Emit;
 
-namespace System
+namespace System;
+
+public static class GenericHelper
 {
-    public class GenericHelper
+    public static bool AreSame<T>(ref T a, ref T b)
     {
-        public static bool AreSame<T>(ref T a, ref T b)
-        {
-            Ldarg(nameof(a));
-            Ldarg(nameof(b));
-            Ceq();
-            return IL.Return<bool>();
-        }
+        IL.Emit.Ldarg(nameof(a));
+        IL.Emit.Ldarg(nameof(b));
+        IL.Emit.Ceq();
+        return IL.Return<bool>();
     }
 }
